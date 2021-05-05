@@ -1,0 +1,9 @@
+textarea{
+    border:0;
+    outline:0;
+    width:100%;
+    border:2px solid #999;
+    border-radius:10px;
+    padding:0.8rem;
+    overflow:hidden
+}

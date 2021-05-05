@@ -1,0 +1,56 @@
+.wrapper{
+    max-width:1000px;
+    margin:0.8rem auto;
+    padding:0.8rem;
+}
+
+input[type="text"],
+input[type="number"]{
+    border:0;
+    outline:0;
+    width:80%;
+    border:2px solid #999;
+    border-radius:10px;
+    padding:0.8rem;
+}
+
+.title , 
+.author,
+.genre,
+.year ,
+textarea {
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin:0.75rem 0;
+}
+
+.file-upload,
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.file-upload{
+    border:2px dashed #6bbe66;
+    border-radius:6px;
+    padding:0.35rem;
+    margin:0.6rem 0;
+}
+.btn-submit > button,
+.btn-reset > input[type="reset"]{
+    display:inline-block;
+    border:0;
+    outline:0;
+    width:200px;
+    margin:0.4rem 0.6rem;
+    border-radius:12px;
+    padding:0.84rem;
+    cursor: pointer;
+    color:#f4f4f4;
+}
+.btn-submit > button{
+    background:#6bbe66;
+}
+.btn-reset > input[type="reset"] {
+    background-color: crimson;
+}

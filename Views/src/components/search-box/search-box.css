@@ -1,0 +1,30 @@
+.search-bar {
+  max-width: 1000px;
+  margin: 0.4rem auto;
+}
+.search-form {
+  width: 100%;
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  top:11px;
+  left:-10px;
+  color:#333;
+  transform: rotate(90deg);
+}
+input[type="search"] {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.75rem;
+  transition: all 0.1s linear;
+}
+input[type="search"]:focus {
+  border-bottom: 2px solid #6bbe66;
+  caret-color: #6bbe66;
+}
+::placeholder,
+input:focus::-webkit-input-placeholder {
+  font-size: 17px;
+}
